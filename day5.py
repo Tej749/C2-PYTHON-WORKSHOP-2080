@@ -59,3 +59,5 @@ for x in range(20):
         continue
     print(x)
 
+a = 56
+print(a)
