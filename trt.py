@@ -1,8 +1,27 @@
-def total(*data):
-    sum = 0
-    for num in data:
-        sum += num
-    print(sum)
+# def expressions(*data):
+#     numb = 0
+#     for value in data:
+#         numb = numb + value
+#     print(numb)
+#
+# expressions(34, 67, 89, 23)
 
+# def add(*data):
+#     numb = 0
+#     for x in data:
+#         numb = numb + 1
+#     return numb
+#
+# result = add(23, 45, 24, 56)
+# print(result)
 
-total(23, 45, 67, 89, 900)
+# def details(name, age, add):
+#     print(name, age, add)
+#
+# details(name="Ram", age=17, add="ktm")
+#
+def details(**data):
+    for key, value in data.items():
+        print(key, value)
+
+details(name="tej", age=10, add="kohalpur")
