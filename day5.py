@@ -13,44 +13,44 @@ range(start, end, step)
 
 '''
 # for loop
-# for i in range(5):
-#     print(i, end=" ")
-# print()
+for i in range(5):
+    print(i, end=" ")
+print()
 
-# for x in range(0, 50, 5):
-#     print(x, end=" ")
+for x in range(0, 50, 5):
+    print(x, end=" ")
 
 # string
 # college = "Nepalgunj Campus of Management & Technology"
 #
-# for y in college:
-#     print(y, end="  ")
+for y in college:
+    print(y, end="  ")
 # list
-# item = [2, 4, 6, 8, 10]
-#
-# for j in item:
-#     print(j + 200)
+item = [2, 4, 6, 8, 10]
 
-# for m in range(50):
-#     print(m, end=" ")
+for j in item:
+    print(j + 200)
 
-# for h in range(20, 40, 5):
-#     print(h, end=" ")
+for m in range(50):
+    print(m, end=" ")
+
+for h in range(20, 40, 5):
+    print(h, end=" ")
 
 # while loop / infinite loop
 
-# i = 0
-# while i < 100:
-#     print("Nepalgunj Campus", i)
-#     i = i + 1
+i = 0
+while i < 100:
+    print("Nepalgunj Campus", i)
+    i = i + 1
 
 # nested loop
 # break & continue
 # break
-# for i in range(20):
-#     print(i)
-#     if i == 17:
-#         break
+for i in range(20):
+    print(i)
+    if i == 17:
+        break
 
 # continue
 
